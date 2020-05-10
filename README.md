@@ -6,68 +6,83 @@
  > Doménový specialista na funkcionální a nefunkcionální testy v browseru. 
  > Praxe s nasazením a údržbou automatizovaného test stacku 
 
-**Trénink pokrývá témata**
+## Trénink pokrývá témata
 
-## Automatizované testy frontendu
-
+**Automatizované testy frontendu**
 - Automatizované testy v browseru 
 - Jak funguje browser
 - Mobilní browser
-- Infrastruktura, prostředí a komunikace
+- Jak fungují webové aplikace
+- HTML (DOM), CSS Object Model (CSSOM), React (Mutace)
 - Javascript v prohlížeči
-- HTML (DOM), CSS (CSOM), React (Mutace)
 
-## Výběr nástroje
+**Architektura test stacku**
+- TestCase jako konfigurace
+- Systém pro správu revizí
+- Test exekuce
+- Environment test stacku (servery a browser)
+- Komponenty pro logování a monitoring testu a testované aplikace.
+- Další komponenty, např. dataservery. 
+
+**Výběr nástroje**
 - Historie testování frontendu
-- Konvenční frameworky a komerční frameworky
+- Konvenční frameworky
 
-## Webdriver.IO
+**WebdriverIO**
 - About
+- DigitalOcean
 - Instalace WDIO
 
-
-3). Psaní testů
-- Běžně používané selektory, eventy a selektory trigrované eventy
+**Psaní testů**
 - Psaní frontendových testů
+- Běžně používané selektory, eventy a selektory trigrované eventy
 - Architektura testů
 - Vlastní příkazy
 - Využití dataprovideru a znovupoužití packages
 
-4). Jak testy spouštět
+**Spouštění testů**
+- Bash scripty
+- Docker kontejnery
+- CI/CD tooly
+- Řízení na úrovní infrastruktury.
 
-## Integrační úroveň
+**Integrační úroveň**
 - Automatizace rest-api
+- Získání uživatelských dat pro automatizovaný test
 
-## Infrastruktura / nasazení?
+**Visual testing**
+- Testování na základě porovnávání snímků
 
-## Git bez GUI - verzování testů
+**Infrastruktura / nasazení?**
 
-## Linux
+**Git bez GUI - verzování testů**
 
-## Docker
+**Linux**
+
+**Docker**
 - Seznámení s dockerem
 - Používání WDIO v dockeru
 - Spuštění připraveného WDIO stacku v dockeru
 
-## Jak funguje browser
-- process 
+**Jak funguje browser**
+- Infrastruktura, prostředí a komunikace
 
-## Javascript v browseru
+**Javascript v browseru**
 - Integrace s dalšími javascriptovými knihovnami a využití v testech
 - Využití javascriptových knihoven v browseru
 
-## API v browseru
+**API v browseru**
 - Využití Web API v automatizovaných testech
 - Mutace DOMu
 - Event handling
 - Testování responses 
 
-## Web Performance Testing
+**Web Performance Testing**
 - Psaní Web Performance testů
 
-14). Rozšíření testu ^^
+**Rozšíření testu**
 
-15). Jak logovat / ukládat data
+**Jak logovat / ukládat data**
 - Seznámení s Elasticsearch, Kibana, Beats
 - Live logování testů a metrik z browseru
 - Tvorba vizualizací a dashboardů
@@ -75,20 +90,20 @@
 - Canvasové reporty s firemní grafikou / kontinuální sledování stavu prostředí na televizy v open-space
 - Další volitelné ukládání dat z testů
 
-## Investigace / Reporting
+**Investigace / Reporting**
 
 
-## Kubernetes
+**Kubernetes**
 - Stavba prostředí pro live logování
 - Seznámení s kubernetes
 - Pattern 1:1:1
 - Příprava WDIO stacku pro imutabilní a izolované spuštění v kubernetes
 - Rotace automatizovaného testu v kubernetes
 
-## WDIO v cloudu
+**WDIO v cloudu**
 
 
-## WDIO a CI/CD
+**WDIO a CI/CD**
 
 ## Proč WDIO
 - openSource
@@ -97,7 +112,6 @@
 ## Technicke otazky
 - dvoudenni, vzdy od 09h
 - Google Meets
-- Uvodni instruktazni video
 - Střídavě teorie s praktickým zapojením, výsledkem je funkční test stack, který můžete začít používat u vás ve firmě
 - Testuje se oproti připravené DEMO aplikaci
 - predpoklady pro ucastnika (nodejs, nebo rovnou v dockeru), git?
@@ -115,9 +129,9 @@
 - konzultace po tréninku
 - WDIO swagy
 
-
-## Neviditelny WDIO
-> WDIO v dockeru a v kubernetes
+## Další zdroje
+- [Gitter Channel](https://gitter.im/webdriverio/webdriverio)
+- [Twitter](https://twitter.com/webdriverio)
 
 
 ## Trenér
