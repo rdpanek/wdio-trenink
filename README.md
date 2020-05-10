@@ -1,10 +1,16 @@
 # WDIO trenink
-[https://wdio.cz/](https://wdio.cz/) | [https://webdriver.io/](https://webdriver.io/) 
-- TAB extended
+[https://webdriver.io/](https://webdriver.io/) 
 
-## Změření tréninku
- > Doménový specialista na funkcionální a nefunkcionální testy v browseru. 
- > Praxe s nasazením a údržbou automatizovaného test stacku 
+## Zaměření tréninku
+- Navazující trénink na [TEST AUTOMATION BASECAMP](https://www.testautomation-basecamp.cz/)
+- Doménový specialista na funkcionální a nefunkcionální testy v browseru. 
+- Praxe s nasazením a údržbou automatizovaného test stacku 
+> Cílem tréninku je prakticky provést testera (nováček / zkušený) od běžných požadavků na funkcionální test automatizaci po reálné nasazení až po early adopters požadavky jako jsou interakce automatizovaného testu s prohlížečem a měření NFR.
+
+
+## Pro koho je trénink určen
+- Nováčky v test automatizaci
+- Zkušené testery, kteří chtějí switchnout technologii a dále se rozvíjet
 
 ## Trénink pokrývá témata
 
@@ -29,7 +35,7 @@
 - Konvenční frameworky
 
 **WebdriverIO**
-- About
+- about
 - DigitalOcean
 - Instalace WDIO
 
@@ -53,8 +59,6 @@
 **Visual testing**
 - Testování na základě porovnávání snímků
 
-**Infrastruktura / nasazení?**
-
 **Git bez GUI - verzování testů**
 
 **Linux**
@@ -66,10 +70,12 @@
 
 **Jak funguje browser**
 - Infrastruktura, prostředí a komunikace
+- Fáze a eventy
 
 **Javascript v browseru**
 - Integrace s dalšími javascriptovými knihovnami a využití v testech
 - Využití javascriptových knihoven v browseru
+- Injektáž javascriptu do browseru
 
 **API v browseru**
 - Využití Web API v automatizovaných testech
@@ -78,9 +84,27 @@
 - Testování responses 
 
 **Web Performance Testing**
+- Web Performance Testing (Dan slidy)
+- Rychlost načítání Webu
+- RUM, AMP, CrUX, Metriky
+- Syntetické měření a NFR
+- https://httparchive.org/
+- CrUX https://g.co/chromeuxdash / https://crux.run/
+- Nástroje
+    -   Lighthouse
+    -   https://speedcurve.com/
+    -   https://www.webpagetest.org/
+    -   https://search.google.com/test/mobile-friendly?id=W3KAzTwD4LLoglewG2Fclg
+- Audit a Performance v browseru
 - Psaní Web Performance testů
+- Hero elements
+- Javascript a priorita načítání zdrojů
+- WPT Checklist
 
-**Rozšíření testu**
+**Rozšíření testu o analýzu frontendu**
+- Rychlost načítání webu
+- Web Api
+- Chyby a logy v browseru
 
 **Jak logovat / ukládat data**
 - Seznámení s Elasticsearch, Kibana, Beats
@@ -91,7 +115,8 @@
 - Další volitelné ukládání dat z testů
 
 **Investigace / Reporting**
-
+- Vyhodnocování funkcionálních a nefunkcionálních requirementů z nasbíraných dat
+- Jaké metriky jsou důležité
 
 **Kubernetes**
 - Stavba prostředí pro live logování
@@ -102,37 +127,32 @@
 
 **WDIO v cloudu**
 
-
 **WDIO a CI/CD**
-
-## Proč WDIO
-- openSource
-- nezávislý na jiných nástrojích
-
-## Technicke otazky
-- dvoudenni, vzdy od 09h
-- Google Meets
-- Střídavě teorie s praktickým zapojením, výsledkem je funkční test stack, který můžete začít používat u vás ve firmě
-- Testuje se oproti připravené DEMO aplikaci
-- predpoklady pro ucastnika (nodejs, nebo rovnou v dockeru), git?
-- budou pripravené praktické ukázky, nebo se budou psát znovu?
-- Bude se resit editor a nastavení?
-- feedback po každém stepu?
-- debrief po lekci?
-
-## Steps
-- teorie se bude střídat s prakticým cvičením
-- od jednoduchých příkladů po komplexní usecases
-- cílem tréninku je prakticky provést testera (nováček / zkušený) od běžných požadavků na funkcionální test automatizaci po reálné nasazení až po early adopters požadavky jako jsou interakce automatizovaného testu s prohlížečem a měření NFR.
-- úkoly před tréninkem
-- certifikace na základě zkušeností
-- konzultace po tréninku
-- WDIO swagy
 
 ## Další zdroje
 - [Gitter Channel](https://gitter.im/webdriverio/webdriverio)
 - [Twitter](https://twitter.com/webdriverio)
+- [Rychlost načítání - případovky](https://wpostats.com/)
+- [Lighthouse váhy](https://docs.google.com/spreadsheets/d/1up5rxd4EMCoMaxH8cppcK1x76n6HLx0e7jxb0e0FXvc/edit#gid=0)
 
+## Jak to funguje
+- Trénink je dvoudenní, vždy od 09h do 16h a probíhá pomocí Google Meets.
+- Střídavě teorie s praktickým zapojením, výsledkem je funkční test stack, který můžete začít používat u vás ve firmě.
+- Testuje se oproti připravené DEMO aplikaci.
+- Po každé lekci bude debrief .
+- Na konci tréninku získá každý účastník certifikát na základě ústní zkoušky.
+- Každý z účastníků má možnost využít kdykoli později 1h konzultace.
+
+## Buďte připraveni a projděte si (Předpoklady účastníka)
+- Musí umět obsluhovat svůj počítač a mít práva pro instalaci programů.
+- Musí umět používat SSH.
+- Docker https://www.zdrojak.cz/clanky/proc-pouzivat-docker/
+- Git https://git-scm.com/download/win (volitelné)
+- Putty https://www.putty.org/ (pro windows uživatele)
+- Nainstalujte si  - https://www.guru99.com/guide-to-install-jmeter.html a výsledek https://www.guru99.com/images/ApacheJmeterSnap.png
+- Založte si účet na githubu: https://github.com/ a projděte si:  https://www.root.cz/knihy/pro-git/
+- Zaregistrujte se na https://hub.docker.com/
+- Zaregistruj se na [DigitalOcean](https://m.do.co/c/d3a11bf7b094)
 
 ## Trenér
 **Radim Daniel Pánek**
