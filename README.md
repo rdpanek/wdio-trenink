@@ -2,47 +2,93 @@
 [https://wdio.cz/](https://wdio.cz/) | [https://webdriver.io/](https://webdriver.io/) 
 - TAB extended
 
+## Změření tréninku
+ > Doménový specialista na funkcionální a nefunkcionální testy v browseru. 
+ > Praxe s nasazením a údržbou automatizovaného test stacku 
 
-## Popis tréninku
- > Doménový specialista na funkcionální a nefunkcionální testy v browseru
- 
 **Trénink pokrývá témata**
-- Automatizované testy frontendu
+
+## Automatizované testy frontendu
+
+- Automatizované testy v browseru 
 - Jak funguje browser
+- Mobilní browser
 - Infrastruktura, prostředí a komunikace
 - Javascript v prohlížeči
-- Běžně používané selektory, eventy a selektory trigrované eventy
-- Mobilní browser
+- HTML (DOM), CSS (CSOM), React (Mutace)
+
+## Výběr nástroje
 - Historie testování frontendu
 - Konvenční frameworky a komerční frameworky
+
+## Webdriver.IO
+- About
 - Instalace WDIO
-- Spuštění připraveného WDIO stacku v dockeru
+
+
+3). Psaní testů
+- Běžně používané selektory, eventy a selektory trigrované eventy
 - Psaní frontendových testů
 - Architektura testů
 - Vlastní příkazy
+- Využití dataprovideru a znovupoužití packages
+
+4). Jak testy spouštět
+
+## Integrační úroveň
+- Automatizace rest-api
+
+## Infrastruktura / nasazení?
+
+## Git bez GUI - verzování testů
+
+## Linux
+
+## Docker
+- Seznámení s dockerem
+- Používání WDIO v dockeru
+- Spuštění připraveného WDIO stacku v dockeru
+
+## Jak funguje browser
+- process 
+
+## Javascript v browseru
 - Integrace s dalšími javascriptovými knihovnami a využití v testech
 - Využití javascriptových knihoven v browseru
-- Psaní integračních testů
-- Využití dataprovideru a znovupoužití packages
-- Psaní Web Performance testů
-- Javascriptová API v browseru a jak je využít v testech
+
+## API v browseru
+- Využití Web API v automatizovaných testech
 - Mutace DOMu
-- Využití eventů v automatizovaných testech
-- Live logování testů a metrik z browseru
+- Event handling
+- Testování responses 
+
+## Web Performance Testing
+- Psaní Web Performance testů
+
+14). Rozšíření testu ^^
+
+15). Jak logovat / ukládat data
 - Seznámení s Elasticsearch, Kibana, Beats
-- Stavba prostředí pro live logování
+- Live logování testů a metrik z browseru
 - Tvorba vizualizací a dashboardů
 - Automatická tvorba reportů
 - Canvasové reporty s firemní grafikou / kontinuální sledování stavu prostředí na televizy v open-space
 - Další volitelné ukládání dat z testů
-- Seznámení s dockerem
-- Používání WDIO v dockeru
+
+## Investigace / Reporting
+
+
+## Kubernetes
+- Stavba prostředí pro live logování
 - Seznámení s kubernetes
 - Pattern 1:1:1
 - Příprava WDIO stacku pro imutabilní a izolované spuštění v kubernetes
 - Rotace automatizovaného testu v kubernetes
-- Napojení na cloudové služby
-- Integrace do CI/CD
+
+## WDIO v cloudu
+
+
+## WDIO a CI/CD
 
 ## Proč WDIO
 - openSource
@@ -72,13 +118,6 @@
 
 ## Neviditelny WDIO
 > WDIO v dockeru a v kubernetes
-
-
-
-## Kde pokracovat ve studiu
-- Let's tests
-- Slack
-
 
 
 ## Trenér
