@@ -149,7 +149,6 @@
 - Docker https://www.zdrojak.cz/clanky/proc-pouzivat-docker/
 - Git https://git-scm.com/download/win (volitelné)
 - Putty https://www.putty.org/ (pro windows uživatele)
-- Nainstalujte si  - https://www.guru99.com/guide-to-install-jmeter.html a výsledek https://www.guru99.com/images/ApacheJmeterSnap.png
 - Založte si účet na githubu: https://github.com/ a projděte si:  https://www.root.cz/knihy/pro-git/
 - Zaregistrujte se na https://hub.docker.com/
 - Zaregistruj se na [DigitalOcean](https://m.do.co/c/d3a11bf7b094)
