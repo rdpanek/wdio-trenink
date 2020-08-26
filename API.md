@@ -29,6 +29,8 @@ console.log(promena);
 
 `console.log(window.document.title);`
 
+`console.error('Mas tam chybu: ${new Date()}');`
+
 ---
 
 ```
