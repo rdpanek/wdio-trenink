@@ -139,4 +139,19 @@ function vypis(auto) {
 }
 ```
 
+---
+
+```
+setInterval(() => {
+  let oddButtonsList = document.querySelectorAll('div[class~="sport"]:first-child a.odds_button:not(.odds_button--locked)')
+  let oddButtonsArr = Array.prototype.slice.call(oddButtonsList);
+  oddButtonsArr.map(x => {
+    x.style.border = "thin dotted red";
+  })
+
+  let oddButton = oddButtonsArr[Math.floor(Math.random() * oddButtonsArr.length)];
+  oddButton.style.border = "thick dotted green";
+}, 100);
+```
+
 >>> https://developer.mozilla.org/en-US/docs/Web/API
