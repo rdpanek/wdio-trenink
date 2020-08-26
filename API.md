@@ -25,10 +25,45 @@ console.log(promena);
 ## Document
 - je objekt, ktery referencuje dokument ve window
 
+`document`
+
 `console.log(window.document.title);`
 
 ---
 
+```
+document.location
+
+document.location.protocol
+
+window.isSecureContext
+```
+
+---
+
+`document.isConnected`
+
+---
+
+`document.getElementById('tesla-logo')`
+
+---
+
+```
+
+document.head
+
+document.body
+
+document.images
+
+document.links
+
+document.readyState
+
+```
+
+---
 
 ```
 window.scrollBy({
