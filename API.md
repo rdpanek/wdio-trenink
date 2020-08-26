@@ -84,4 +84,19 @@ window.scrollBy({
 
 ```window.addEventListener('click', function() {alert("TAB")})```
 
+```
+document.getElementById("tesla-logo").addEventListener("click", function(){
+  document.getElementById("tesla-logo").innerHTML = "VW Caravelle";
+});
+```
+
 ---
+
+```
+history.forward()
+
+history.back();
+
+history.length
+
+```
