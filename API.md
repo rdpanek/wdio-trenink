@@ -102,3 +102,40 @@ history.back();
 history.length
 
 ```
+
+---
+
+```
+let cars = ["Saab", "Volvo", "BMW"];
+cars.length
+cars.forEach(car => { console.log(car)})
+
+```
+
+---
+
+```
+Math.floor(Math.random() * 10);
+```
+
+---
+
+```
+localStorage.setItem('myCat', 'Tom');
+const cat = localStorage.getItem('myCat');
+localStorage.removeItem('myCat');
+localStorage.clear();
+
+```
+
+---
+
+```
+window.setInterval(vypis, 500, 'Teslicku');
+let i = 0
+function vypis(auto) {
+    console.log(`Ja chci ${auto} ${i}`)
+    i++
+}
+```
+
