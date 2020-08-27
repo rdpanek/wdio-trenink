@@ -87,9 +87,8 @@ window.scrollBy({
 ```window.addEventListener('click', function() {alert("TAB")})```
 
 ```
-document.getElementById("tesla-logo").addEventListener("click", function(){
-  document.getElementById("tesla-logo").innerHTML = "VW Caravelle";
-});
+let logo = document.getElementsByTagName('h1')
+logo[1].addEventListener('click', function() { logo[1].innerText='VW Caravelle Long 2019' })
 ```
 
 ---
